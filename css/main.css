@@ -88,25 +88,36 @@ textarea {
    ========================================================================== */
   /*Content Wrapper*/
    .content-wrapper{
-    width: 90%;
+    width: 110%;
+    margin: 50px 0;
   }
   
    /* Header styles  */
   header{
     display: flex;
     justify-content: center;
+    padding: 15px 0;
   }
+  header .header-divider{
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+  header nav {
+    width: 60%;
+}
 
   header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
   
   }
   header nav ul{
     display: flex;
-    justify-content:space-around ;
+    justify-content:space-around;
+    width: 100%;
     
   }
      /* footer styles  */
@@ -115,6 +126,12 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  footer .content-wrapper{
+    width: 55%;
+  }
+  footer .contact{
+    margin-bottom: 50px;
   }
   footer .social-icons{
     display:flex;
@@ -125,6 +142,12 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  footer .copyright{
+    margin: 20px 0;
+  }
+  footer p{
+    margin: 0;
   }
    /* Main styles for index.html */
    .features{
@@ -139,10 +162,23 @@ textarea {
     align-items: flex-start;
     flex-flow: row wrap;
    }
+   .features article{
+    width: 62%;
+    margin: 30px 0;
+   }
+   .features h2{
+    margin-bottom:  60px;
+   }
+   .features p{
+    margin: 0;
+   }
    .reviews{
     display: flex;
     justify-content: center;
 
+   }
+   .reviews h3{
+    width: 57%;
    }
    .hero-area{
      display: flex;
@@ -165,6 +201,9 @@ textarea {
     justify-content: center;
 
    }
+   .contact-content p{
+      margin: 0;
+   }
    /*FAQ/index.html*/
    .faq{
      display: flex;
@@ -176,6 +215,13 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+    margin: 50px 0 0 0;
+   }
+   .faq h2{
+    margin: 40px;
+   }
+   .faq-content{
+    margin-bottom: 50px;
    }
 
 
