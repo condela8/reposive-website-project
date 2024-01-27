@@ -90,38 +90,56 @@ textarea {
 /* General Styles */
     
     html {
-      font-size: 1rem;
+      font-size: 16px;
     }
     
     body {
       font-family: 'Open Sans', sans-serif;
       font-size: 1em;
+      color: #e2e3ed;
+      text-align: left;
     }
     
     ul, 
     ol {
       list-style-type: none;
+      padding: 0;
+      margin: 0;
     }
     
     a {
       color: #e2e3ed;
       text-decoration: none;
     }
+
+    h1{
+      font-family: 'Poppins', Helvetica, Arial, sans-serif;
+      font-size: 2.25rem;
+      line-height: 43px;
+      font-weight: 500;
+      line-height: 30px;;
+    }
     
     h2 {
       font-family: 'Poppins', sans-serif;
       font-size: 1.875em;
+      font-weight: 500;
     }
     
     h3, 
     h4 {
       font-family: 'Poppins', sans-serif;
       font-size: 1.125em;
+      font-weight: 500;
+      margin: 20px 0;
+    }
+    h4{
+      line-height: 24px;
     }
     
     p {
       font-size: .875em;
-      line-height: 1.285;
+      line-height: 18px;
     }
     
     img {
@@ -137,6 +155,8 @@ textarea {
     }
     
     .content-wrapper {
+      width: 90%;
+      margin: 50px 0;
     
     }
   /*Content Wrapper*/
@@ -150,14 +170,20 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background-color: #202322;
+    ;
+
   }
   header .header-divider{
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    color: #3a3a3a;
   }
   header nav {
     width: 60%;
+    font-size: 1.125rem;
+    font-weight: bold;
 }
 
   header .content-wrapper{
@@ -180,12 +206,15 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #202322;
+
   }
   footer .content-wrapper{
     width: 55%;
   }
   footer .contact{
     margin-bottom: 50px;
+    background-color: #2a423a;
   }
   footer .social-icons{
     display:flex;
@@ -207,6 +236,7 @@ textarea {
    .features{
     display:flex;
     justify-content: center;
+    /*background-color: #000000;*/
     
 
    }
@@ -226,9 +256,13 @@ textarea {
    .features p{
     margin: 0;
    }
+   .features .fontawesome-icon{
+      font-size: 3.75rem;
+   }
    .reviews{
     display: flex;
     justify-content: center;
+    background-color: #2a423a;
 
    }
    .reviews h3{
@@ -244,25 +278,29 @@ textarea {
    aside{
     display: flex;
     justify-content: center;
+    background-color: #527158;
    }
    aside .content-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-  
-
-   }
+  }
+  .social .social-icons{
+    font-size: 1.3125rem;
+    background-color: #527158;
+  }
    /* About/index.html*/
    .mission{
     display: flex;
     justify-content: center;
+    background-color: #527158;
 
    }
    .contact-content{
     display: flex;
     justify-content: center;
+    
 
    }
    .contact-content p{
@@ -272,6 +310,7 @@ textarea {
    .faq{
      display: flex;
      justify-content: center;
+     background-color: #527158;
 
    }
    .faq .content-wrapper{
@@ -287,6 +326,36 @@ textarea {
    .faq-content{
     margin-bottom: 50px;
    }
+   /* Form Style*/
+   aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: #2a423a;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #2a423a;
+  }
 
 
 
@@ -386,6 +455,18 @@ textarea {
       max-width: 640px;
       margin: 100px 0;
   }
+  h1{
+    font-size: 3rem;
+    line-height: 48px;
+  }
+  h2{
+    font-size: 2.25rem;
+    line-height: 48px;
+  }
+  h3{
+    font-size: 1.5rem;
+    line-height: 38px;
+  }
 
   /* Header */
 
@@ -473,6 +554,13 @@ textarea {
   footer .copyright {
       width:100%;
   }
+  footer h4,
+  .contact h4{
+    font-size: 1.5rem;
+  }
+  footer p{
+    line-height: 18px;
+  }
   
   /* ==========================================================================
    About Page
@@ -512,10 +600,26 @@ textarea {
     .faq h2 {
         width: 100%;
     }
+    .faq h4,
+    .faq p{
+      font-size: 0.875rem;
+      line-height: 15.75px;
+    }
 }
  
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+  /* General styles*/
+  h1{
+    font-size: 3.75rem;
+  }
+  h2{
+    font-size: 2.25rem;
+  }
+  p{
+    font-size: 1.125rem;
+    line-height: 24px;
+  }
   header {
     padding:15px 0;
 }
@@ -566,6 +670,20 @@ FAQ Page
 ========================================================================== */
 .faq h2 {
     width: 100%;
+}
+.faq h2,
+.mission h2{
+  font-size: 3rem;
+}
+.faq h3,
+.faq h4,
+.mission h3 
+.mission h4{
+  font-size: 1.875rem;
+}
+.faq .faq-content{
+  font-size: 1.125rem;
+  line-height: 18px;
 }
 }
 
