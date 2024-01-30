@@ -143,11 +143,11 @@ textarea {
     }
     
     img {
-    
+      width: 100%;
     }
     
     figure {
-    
+      margin: 0;
     }
     
     address {
@@ -212,9 +212,9 @@ textarea {
   footer .content-wrapper{
     width: 55%;
   }
-  footer .contact{
+  .footer-content{
     margin-bottom: 50px;
-    background-color: #2a423a;
+    
   }
   footer .social-icons{
     display:flex;
@@ -236,10 +236,9 @@ textarea {
    .features{
     display:flex;
     justify-content: center;
-    /*background-color: #000000;*/
-    
-
-   }
+    background: url('../img/unplugged-retreat-features.jpg') center no-repeat black;
+     background-size: cover;
+    }
    .features .features-items{
     display: flex;
     justify-content: center;
@@ -268,24 +267,42 @@ textarea {
    .reviews h3{
     width: 57%;
    }
+   .reviews .lacrue{
+      display: flex;
+      justify-content: space-between;
+   }
+   .reviews .lacrue .lacrue-image{
+      margin-right: 100px;
+      margin-top: 20px;
+   }
+   .lacrue-content h3{
+    width: 250px;
+    margin: 0;
+
+   }
    .hero-area { 
      display: flex;
      justify-content: center;
      padding-left: 12px;
      padding-right: 12px;
+     background: url('../img/unplugged-retreat.jpg') center no-repeat black;
+     background-size: cover;
 
    }
    aside{
     display: flex;
     justify-content: center;
     background-color: #527158;
-   }
-   aside .content-wrapper{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
+   }
+   aside .retreat{
+    margin-right: 50px;
+   }
+   .join-reatreat{
+    margin-left: 50px;
+   }
+   
   .social .social-icons{
     font-size: 1.3125rem;
     background-color: #527158;
@@ -297,9 +314,10 @@ textarea {
     background-color: #527158;
 
    }
-   .contact-content{
+   .contact-section{
     display: flex;
     justify-content: center;
+    background-color: #2a423a;
     
 
    }
@@ -339,7 +357,7 @@ textarea {
     padding: 1em;
     font-size: 1.125rem;
     font-weight: 500;
-    background-color: #2a423a;
+    background-color: #e2e3ed;
   }
    
   input[type=button] {
@@ -536,7 +554,7 @@ textarea {
 
   /* Footer */
   footer .content-wrapper {
-      width: 5%;
+      width: 50%;
       margin: 100px 0;
   }
   
@@ -616,6 +634,7 @@ textarea {
   h2{
     font-size: 2.25rem;
   }
+ 
   p{
     font-size: 1.125rem;
     line-height: 24px;
@@ -680,6 +699,10 @@ FAQ Page
 .mission h3 
 .mission h4{
   font-size: 1.875rem;
+}
+h4{
+  /*height: 250px;*/
+  
 }
 .faq .faq-content{
   font-size: 1.125rem;
