@@ -258,6 +258,14 @@ textarea {
    .features .fontawesome-icon{
       font-size: 3.75rem;
    }
+   .features i {
+      margin-bottom: 40px;
+      color: #9ce1f0;
+  }
+  .fa-wifi {
+      color: #9ce1f0;
+    }
+  
    .reviews{
     display: flex;
     justify-content: center;
