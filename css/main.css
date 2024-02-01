@@ -262,10 +262,6 @@ textarea {
       margin-bottom: 40px;
       color: #9ce1f0;
   }
-  .fa-wifi {
-      color: #9ce1f0;
-    }
-  
    .reviews{
     display: flex;
     justify-content: center;
@@ -311,9 +307,17 @@ textarea {
     margin-left: 50px;
    }
    
-  .social .social-icons{
+  .social .social-icons a{
     font-size: 1.3125rem;
     background-color: #527158;
+    border-radius: 100px;
+    width: 50px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 0 10px;
+  }
+  .social .social-icons a fa-twitter{
+    margin: 0 10px;
   }
    /* About/index.html*/
    .mission{
