@@ -205,7 +205,7 @@ header nav ul{
   .features .features-items{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
   }
   .features article{
@@ -219,8 +219,11 @@ header nav ul{
   margin: 0;
   }
   .features .fontawesome-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3.75rem;
-    padding-left: 60px;
+    padding-left: 0px;
   }
   .features i {
     margin-bottom: 40px;
@@ -229,6 +232,7 @@ header nav ul{
   .reviews{
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #2a423a;
 }
 .reviews h2{
@@ -247,11 +251,15 @@ header nav ul{
     margin-right: 100px;
     margin-top: 20px;
   }
+  .review .lacrue-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0 20px;
+  }
   .lacrue-content h3{
-  width: 250px;
-  padding-top: 20px;
-  margin: 0;
-
+     padding-top: 20px ;
+     margin: 0;
   }
   .hero-area { 
     display: flex;
@@ -262,6 +270,7 @@ header nav ul{
     background-size: cover;
 
   }
+  
   aside{
   display: flex;
   justify-content: center;
@@ -272,8 +281,8 @@ header nav ul{
   aside .retreat{
   margin-right: 50px;
   }
-  .join-reatreat{
-  margin-left: 50px;
+  aside .join-reatreat{
+  margin-left: 0px;
   }
 
 .social .social-icons a{
@@ -367,14 +376,14 @@ header nav ul{
   margin: 50px 0 0 0;
   }
   .faq h2{
-  line-height: 30px;
+  line-height: 1;
   margin: 40px;
   }
   .faq-content{
   margin-bottom: 50px;
   }
   .faq-content h4{
-    line-height: 24px;
+    line-height: 1.3333;
   }
   /* Form Style*/
   aside .form {
@@ -575,9 +584,10 @@ clear: both;
   .features .features-item-description {
       width: 50%;
   }
-  .features .fontawesome-icon{
-    padding-left: 0;
+  .features .fontawesome-icon i{
+    padding-right: 40px;
   }
+  
 
   /* Reviews */
   .reviews article {
@@ -597,8 +607,12 @@ clear: both;
   margin-top: 0 ;
   height: 200px;
   width:300px;
-
   }
+  .lacrue-content h3{
+    padding-top: 20px ;
+    margin: 0;
+    width: 250px;
+ }
   /* Footer */
   footer .content-wrapper {
       width: 50%;
@@ -673,11 +687,12 @@ clear: both;
 
     .faq h2 {
         width: 100%;
+        line-height: 40px;
     }
     .faq h4,
     .faq p{
       font-size: 0.875rem;
-      line-height: 15.75px;
+      line-height: 1.125;
     }
 }
 
@@ -734,8 +749,8 @@ clear: both;
   width:100%;
   padding-right: 100px;
   }
-  .features .fontawesome-icon{
-  padding-left: 0;
+  .features .fontawesome-icon i{
+    padding-left: 10px;
   }
   /* Reviews */ 
   .reviews .lacrue{
@@ -784,12 +799,15 @@ clear: both;
   font-size: 1.875rem;
   }
 
-  .faq .faq-content{
-  font-size: 1.125rem;
-  line-height: 18px;
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
   }
-  .faq h4{
-  line-height: 35px;
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 
 }
